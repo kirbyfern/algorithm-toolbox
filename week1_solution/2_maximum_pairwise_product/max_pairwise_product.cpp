@@ -51,14 +51,42 @@ long long MaxPairwiseProductFast(const std::vector<int> &numbers)
 
 int main()
 {
-    // int n;
-    // std::cin >> n;
-    // std::vector<int> numbers(n);
+    // random stress testing
+    while (true)
+    {
+        int n = rand() % 10 + 2;
+        std::cout << n << "\n";
+        std::vector<int> a;
+        for (int i = 0; i < n; ++i)
+        {
+            a.push_back(rand() % 100000);
+        }
+        for (int i = 0; i < n; ++i)
+        {
+            std::cout << a[i] << ' ';
+        }
+        std::cout << "\n";
+        long long res1 = MaxPairwiseProduct(a);
+        long long res2 = MaxPairwiseProductFast(a);
+        if (res1 != res2)
+        {
+            std::cout << "Wrong answer: " << res1 << ' ' << res2 << "\n";
+            break;
+        }
+        else
+        {
+            std::cout << "OK\n";
+        }
+    }
 
-    // for (int i = 0; i < n; ++i)
-    // {
-    //     std::cin >> numbers[i];
-    // }
+    int n;
+    std::cin >> n;
+    std::vector<int> numbers(n);
+
+    for (int i = 0; i < n; ++i)
+    {
+        std::cin >> numbers[i];
+    }
 
     long long result = MaxPairwiseProductFast(std::vector<int>(100000, 0));
     std::cout << result << "\n";
