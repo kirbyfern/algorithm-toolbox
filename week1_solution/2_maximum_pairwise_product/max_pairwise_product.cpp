@@ -3,9 +3,8 @@
 #include <algorithm>
 #include <cstdlib>
 
-using namespace std;
 
-long long MaxPairwiseProduct(const vector<int> &numbers)
+long long MaxPairwiseProduct(const std::vector<int> &numbers)
 {
     long long result = 0;
     int n = numbers.size();
@@ -21,7 +20,7 @@ long long MaxPairwiseProduct(const vector<int> &numbers)
     return result;
 }
 
-long long MaxPairwiseProductFast(const vector<int> &numbers)
+long long MaxPairwiseProductFast(const std::vector<int> &numbers)
 {
     int n = numbers.size();
 
@@ -77,14 +76,14 @@ int main()
     }
     */
     int n;
-    cin >> n;
-    vector<int> numbers(n);
+    std::cin >> n;
+    std::vector<int> numbers(n);
 
     for (int i = 0; i < n; ++i) {
-        cin >> numbers[i];
+        std::cin >> numbers[i];
     }
 
     long long result = MaxPairwiseProductFast(numbers);
-    cout << result << "\n";
+    std::cout << result << "\n";
     return 0;
 }
