@@ -8,5 +8,6 @@
 
 ## Algorithm solutions
 
-⭐️ for algorithmic toolbox
+
+⭐️ I chose C++ for my algorithmic solutions
 

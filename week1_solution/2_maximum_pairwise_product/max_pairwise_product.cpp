@@ -46,23 +46,25 @@ long long MaxPairwiseProductFast(const std::vector<int> &numbers)
         }
     }
 
-    std::cout << max_index1 << ' ' << max_index2 << "\n";
+    //-- Debug line
+    // std::cout << max_index1 << ' ' << max_index2 << "\n";
 
     return ((long long)(numbers[max_index1])) * numbers[max_index2];
 }
 
 int main()
 {
-    // random stress testing
+    /*
+    // Implement stress test
     while (true)
     {
-        int n = rand() % 4 + 2;
+        int n = rand() % 1000 + 2;
         std::cout << n << "\n";
         // generate a number of arrays called a
         std::vector<int> a;
         for (int i = 0; i < n; ++i)
         {
-            a.push_back(rand() % 10);
+            a.push_back(rand() % 100000);
         }
         for (int i = 0; i < n; ++i)
         {
@@ -81,6 +83,7 @@ int main()
             std::cout << "OK\n";
         }
     }
+    */
 
     int n;
     std::cin >> n;
