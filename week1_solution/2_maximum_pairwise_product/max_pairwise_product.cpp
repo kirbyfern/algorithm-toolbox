@@ -56,6 +56,7 @@ int main()
     {
         int n = rand() % 10 + 2;
         std::cout << n << "\n";
+        // generate a number of arrays called a
         std::vector<int> a;
         for (int i = 0; i < n; ++i)
         {
@@ -88,7 +89,7 @@ int main()
         std::cin >> numbers[i];
     }
 
-    long long result = MaxPairwiseProductFast(std::vector<int>(100000, 0));
+    long long result = MaxPairwiseProduct(numbers);
     std::cout << result << "\n";
     return 0;
 }
