@@ -54,13 +54,13 @@ int main()
     // random stress testing
     while (true)
     {
-        int n = rand() % 10 + 2;
+        int n = rand() % 4 + 2;
         std::cout << n << "\n";
         // generate a number of arrays called a
         std::vector<int> a;
         for (int i = 0; i < n; ++i)
         {
-            a.push_back(rand() % 100000);
+            a.push_back(rand() % 10);
         }
         for (int i = 0; i < n; ++i)
         {
