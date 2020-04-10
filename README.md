@@ -11,40 +11,90 @@
 
 </div>
 
------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
 ## Algorithmic Programming Techniques Specialization
 
-by UC San Diego Dept. of Engineering and Computer Science
+Course by University of California San Diego & & National Research University Higher School of Economics.
 
------------------------------------------------------------------------------------------------------------------------
+Covered topics dealt with road network analysis and social network analysis, it also offers two real-world projects.
 
-## 📝 Table of Content
+---------------------------------------------------------------------------------------------------
+
+## Course Synopsis
+
+- [Week-1](/week1_solution)[ 
+  * [Sum of two Digits](/week1_solution/1_sum_of_two_digits)
+  * [Maximum Pairwise Product](/week1_solution/2_maximum_pairwise_product)
+
+
+- [Week-2](/week2_solution)[ 
+  * [Small Fibonacci Number]()
+  * [The Last Digit of a Large Fibonacci Number]()
+  * [Greatest Common Divisor]()
+  * [Least Common Multiple]()
+  * [Huge Fibonacci Number modulo m]()
+  * [Last Digit of a Sum of Fibonacci Numbers]()
+  * [Last Digit of a Partial Sum of Fibonacci Numbers]()
+  * [Last Digit of the Sum of Squares of Fibonacci Numbers]()
   
------------------------------------------------------------------------------------------------------------------------
+  
+- [Week-3](/week3_solution)[
+  * [Money Change]()
+  * [Maximum Value of the Loot (Fractional Knapsack)]()
+  * [Maximum Advertisement Revenue (Maximum Dot Product)]()
+  * [Collecting Signatures (Covering Segments by Points)]()
+  * [Maximum Number of Prizes (Different Summands)]()
+  * [Maximum Salary (Largest Number)]()
 
-## 💡📢 Go in Depth
+
+- [Week-4](/week4_solution)
+  * [binary search]()
+  * [majority element]()
+  * [improving quicksort]()
+  * [number of inversions]()
+  * [organizing a lottery]()
+  * [closest points]()
+  
+  
+- [Week-5](/week5_solution)
+  * [money change again]()
+  * [primitive calculator]()
+  * [edit distance]()
+  * [longest common subsequence of two sequences]()
+  * [longest common subsequence of three sequences]()
+  
+  
+- [Week-6](/week6_solution)
+  * [maximum amount of gold]()
+  * [partitioning souvenirs]()
+  * [maximum value of an arithmetic expression]()
+
+  
+---------------------------------------------------------------------------------------------------
+
+## Course covered topics
  
-- [Big O Notation](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Big%20O%20Notation)
-- [Fibonacci-Numbers](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Fibonacci%20Numbers)
-- [Greatest-Common-Divisor](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Greatest%20Common%20Divisor)
-- [Least-Common-Multiple](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Least%20Common%20Multiple)
-- [Fractional-Knapsack](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Fractional%20Knapsack)
-- [0_1_KnapSack](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/_0_1_KnapSack)
-- [Linear Search](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Linear%20Search)
-- [Binary Search](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Binary%20Search)
-- [Polynomials Multiplication](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Polynomials%20Multiplication)
-- [Selection Sort](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Selection%20Sort)
-- [Merge Sort](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Merge%20Sort)
-- [All Sorting Algorithms](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/All%20sorting%20in%20one%20place)
-- [Binary Search Tree](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Binary%20Search%20Tree)
-- [Binary Tree](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Binary%20Tree)
-- [Bubble Sort](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Bubble%20Sort)
-- [Heap Sort](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Heap%20Sort)
-- [Insertion Sort](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Insertion%20Sort)
-- [Minimum Spanning Tree](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Minimum%20Spanning%20Tree)
-- [Quick Sort](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Quick%20Sort)
-- [Shell Sort](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Shell%20Sort)
-- [Tower of Hanoi](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/Tower%20of%20Hanoi)
-- [What's the stable sort](https://github.com/AbdallahHemdan/Algorithmic-Toolbox-San-Diego/tree/master/Go%20in%20depth%20with%20each%20topic/What's%20the%20stable%20sort)
+- [Big O Notation]()
+- [Fibonacci-Numbers]()
+- [Greatest-Common-Divisor]()
+- [Least-Common-Multiple]()
+- [Fractional-Knapsack]()
+- [KnapSack]()
+- [Linear Search]()
+- [Binary Search]()
+- [Polynomials Multiplication]()
+- [Selection Sort]()
+- [Merge Sort]()
+- [All Sorting Algorithms]()
+- [Binary Search Tree]()
+- [Binary Tree]()
+- [Bubble Sort]()
+- [Heap Sort]()
+- [Insertion Sort]()
+- [Minimum Spanning Tree]()
+- [Quick Sort]()
+- [Shell Sort]()
+- [Tower of Hanoi]()
+- [What is stable sort]()
 
