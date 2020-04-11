@@ -7,6 +7,7 @@
 <h3 align="center">✔ Algorithmic Toolbox</h3>
 <div align="center">
 
+[![GitHub issues](https://img.shields.io/github/contributors/kirbygit/algorithm-toolbox)](https://github.com/kirbygit/algoritmh-toolbox/contributors)
 [![GitHub license](https://img.shields.io/github/license/kirbygit/algorithm-toolbox)](https://github.com/kirbygit/algorithm-toolbox/blob/master/LICENSE)
 
 </div>
@@ -23,23 +24,23 @@ Covered topics dealt with road network analysis and social network analysis, it 
 
 ## Course Synopsis
 
-- [Week-1](/week1_solution)[ 
+- [Week-1](/week1_solution)
   * [Sum of two Digits](/week1_solution/1_sum_of_two_digits)
   * [Maximum Pairwise Product](/week1_solution/2_maximum_pairwise_product)
 
 
-- [Week-2](/week2_solution)[ 
-  * [Small Fibonacci Number]()
-  * [The Last Digit of a Large Fibonacci Number]()
-  * [Greatest Common Divisor]()
-  * [Least Common Multiple]()
+- [Week-2](/week2_solution)
+  * [Small Fibonacci Number](/week2_solution/1_fibonacci_number)
+  * [The Last Digit of a Large Fibonacci Number](/week2_solution/2_last_digit_of_fibonacci_number)
+  * [Greatest Common Divisor](/week2_solution/3_greatest_common_divisor)
+  * [Least Common Multiple](/week2_solution/4_least_common_multiple)
   * [Huge Fibonacci Number modulo m]()
   * [Last Digit of a Sum of Fibonacci Numbers]()
   * [Last Digit of a Partial Sum of Fibonacci Numbers]()
   * [Last Digit of the Sum of Squares of Fibonacci Numbers]()
   
   
-- [Week-3](/week3_solution)[
+- [Week-3](/week3_solution)
   * [Money Change]()
   * [Maximum Value of the Loot (Fractional Knapsack)]()
   * [Maximum Advertisement Revenue (Maximum Dot Product)]()
