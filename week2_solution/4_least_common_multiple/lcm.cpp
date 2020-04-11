@@ -1,4 +1,7 @@
 #include <iostream>
+#include <algorithm>
+
+using namespace std;
 
 // TODO:
 // 1. Create a faster solution
@@ -15,7 +18,7 @@ long long lcm_naive(int a, int b) {
 
 int main() {
   int a, b;
-  std::cin >> a >> b;
-  std::cout << lcm_naive(a, b) << std::endl;
+  cin >> a >> b;
+  cout << lcm_naive(a, b) << endl;
   return 0;
 }

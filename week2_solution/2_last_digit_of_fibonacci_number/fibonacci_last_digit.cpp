@@ -7,27 +7,6 @@ typedef long int li;
 
 using namespace std;
 
-
-//TODO:
-// 1. Review Computing Runtimes
-//    a.) Figure out how long my solution run
-//    b.) Measure runtime without too much details
-// 2. Create A faster algorithm vs. the currente naive
-// 3. Build and make sure no error
-// 4. Get output that work for large inputs
-
-// note: increment, comparison, branch
-// lookup, assignment, and add big int
-// RAM LOOKUPS
-// figuring out accurate runtime is impossible and a huge risk
-
-// TEST CASE:
-// Expected Output must be the same
-// Input 3, Output 2
-// Input 331, Output 9
-
-// BRB TESTING RUNTIME
-
 //-- Naive algorithm slower runtime
 int get_fibo_last_digit_naive(int n) {
     if (n <= 1)

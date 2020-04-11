@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <cstdlib>
 
+// not using namespace on this solution
 
 long long MaxPairwiseProduct(const std::vector<int> &numbers)
 {
@@ -20,6 +21,9 @@ long long MaxPairwiseProduct(const std::vector<int> &numbers)
     return result;
 }
 
+
+// Efficient Solution
+// Computing Runtime: (Max time used: 0.04/1.00, max memory used: 23613440/536870912.) = Passed
 long long MaxPairwiseProductFast(const std::vector<int> &numbers)
 {
     int n = numbers.size();
