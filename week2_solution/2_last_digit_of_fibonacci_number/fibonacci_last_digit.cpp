@@ -1,4 +1,12 @@
 #include <iostream>
+#include <cmath>
+#include <algorithm>
+#include <vector>
+
+typedef long int li;
+
+using namespace std;
+
 
 //TODO:
 // 1. Review Computing Runtimes
@@ -13,7 +21,15 @@
 // RAM LOOKUPS
 // figuring out accurate runtime is impossible and a huge risk
 
-int get_fibonacci_last_digit_naive(int n) {
+// TEST CASE:
+// Expected Output must be the same
+// Input 3, Output 2
+// Input 331, Output 9
+
+// BRB TESTING RUNTIME
+
+//-- Naive algorithm slower runtime
+int get_fibo_last_digit_naive(int n) {
     if (n <= 1)
         return n;
 
@@ -29,11 +45,23 @@ int get_fibonacci_last_digit_naive(int n) {
     return current % 10;
 }
 
+// My Solution
+// Computing Runtime: (Max time used: 0.00/1.00, max memory used: 9248768/536870912.) = Passed
+li get_fibo_last_digit_eff(int n) {
+    // create a vector/array fibo
+    vector<long int> fibo(n+1);
+    fibo[0] = 0;
+    fibo[1] = 1;
+    for (int i = 2; i <= n; i++)
+      fibo[i] = (fibo[i-1] + fibo[i-2])%10;
+
+    return fibo[n] % 10;
+}
+
+
 int main() {
     int n;
-    std::cin >> n;
-    int c = get_fibonacci_last_digit_naive(n);
-    std::cout << c << '\n';
+    cin >> n;
+    int c = get_fibo_last_digit_eff(n);
+    cout << c << endl;
     }
-
-    std::cout << c << '\n';
