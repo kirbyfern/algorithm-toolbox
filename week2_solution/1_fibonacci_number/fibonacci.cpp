@@ -29,6 +29,7 @@ int fib_naive(int n) {
 }
 
 // My efficient solution
+// Computing Runtime: (Max time used: 0.00/1.00, max memory used: 9142272/536870912.) = Passed
 li fib_eff(int n) {
     // create a vector/array fibo
     vector<long int> fibo(n+1);

@@ -18,7 +18,8 @@ using namespace std;
 // }
 
 
-//-- my effective solution that doesn't exceed the req. runtime
+//-- My effective solution that doesn't exceed the req. runtime
+// Computing Runtime: (Max time used: 0.00/1.00, max memory used: 9142272/536870912.) = Passed 
 int gcd_eff(int a, int b) {
   if (b == 0)
     return a;
