@@ -7,7 +7,7 @@
 <h3 align="center">✔ Algorithmic Toolbox</h3>
 <div align="center">
 
-[![GitHub issues](https://img.shields.io/github/contributors/kirbygit/algorithm-toolbox)](https://github.com/kirbygit/algoritmh-toolbox/contributors)
+[![GitHub issues](https://img.shields.io/github/contributors/kirbygit/algorithm-toolbox)](https://github.com/kirbygit/algorithm-toolbox/contributors)
 [![GitHub license](https://img.shields.io/github/license/kirbygit/algorithm-toolbox)](https://github.com/kirbygit/algorithm-toolbox/blob/master/LICENSE)
 
 </div>
