@@ -23,7 +23,8 @@ int gcd_eff(int a, int b) {
 }
 
 
-//-- Efficient Solution
+// Efficient Solution
+// Computing Runtime: (Max time used: 0.00/1.00, max memory used: 9162752/536870912.)
 lli lcm_eff(int a, int b) {
   return (lli) a * (b / gcd_eff(a, b));
 }

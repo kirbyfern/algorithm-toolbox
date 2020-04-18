@@ -7,32 +7,46 @@ using std::vector;
 using std::max;
 using std::string;
 
-int compute_min_refills(int dist, int tank, vector<int> & stops) {
-    // write your code here
-    int num_refills = 0, current_refill = 0, last_refill = 0;
-    string imp = "IMPOSSIBLE";
 
-    while (current_refill <= dist) {
-        last_refill = current_refill;
-        while (current_refill <= dist && (stops[current_refill + 1] - stops[last_refill]) <= tank) {
-            current_refill += 1;
-            if (current_refill == last_refill)  {
-                return -1;
-            } else if (current_refill <= dist) {
-                num_refills += 1;
-            }
+// x = vector<int> stops
+// n = dist
+// L = tank
+
+// Efficient Solution
+// Computing Runtime: (Max time used: 0.00/1.00, max memory used: 9187328/536870912.)
+int compute_min_refills(int dist, int tank, vector<int> & stops) {
+    int num_refills = 0, current_refill = 0, last_refill = 0, pos_refill = -2;
+    bool ref = true;
+    // add a new element at the end of the last element of stops array
+    stops.push_back(dist);
+    while (ref)
+    {
+        if (dist <= (current_refill + tank))
+        {
+            return num_refills;
         }
+        if ((stops[last_refill] - current_refill) > tank)
+        {
+            pos_refill = last_refill - 1;
+            if (current_refill == stops[pos_refill])
+            {
+                return -1;
+            }
+            num_refills++;
+            current_refill = stops[last_refill - 1];
+            last_refill -= 1;
+            continue;
+        }
+        ++last_refill;
     }
-    return num_refills;
+    return -1;
 }
 
 
 int main() {
-    int d = 0;
+    int d = 0, m = 0, n = 0;
     cin >> d;
-    int m = 0;
     cin >> m;
-    int n = 0;
     cin >> n;
 
     vector<int> stops(n);
