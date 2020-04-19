@@ -12,20 +12,19 @@ using std::min;           //------------
 using std::min_element;   //- Algorithm
 using std::iter_swap;     //------------
 
-// FIXME: DOUBLE CHECK SWAP
-template<class ForwardIt>
-void swap(ForwardIt begin, ForwardIt end)
-{
-    for (ForwardIt i = begin; i != end; ++i)
-        std::iter_swap(i, std::min_element(i, end));
-}
+// template<class ForwardIt>
+// void swap(ForwardIt begin, ForwardIt end)
+// {
+//     for (ForwardIt i = begin; i != end; ++i)
+//         std::iter_swap(i, std::min_element(i, end));
+// }
 
 void selection_sort(vector<double> &c, vector<int> &w, vector<int> &v) {
   int i, j, i_min;
   for (i = 0; i < c.size(); i++) 
   {
     i_min = i; // index of min data
-    for (j= 0; j < w.size(); j++)
+    for (j = i+1; j < w.size(); j++)
     {
       if (c[j] > c[i_min])
       {
@@ -34,9 +33,9 @@ void selection_sort(vector<double> &c, vector<int> &w, vector<int> &v) {
     }
     if (i_min != i)
     {
-      swap(c.begin()+i, c.begin()+i_min);
-      swap(w.begin()+i, w.begin()+i_min);
-      swap(v.begin()+i, v.begin()+i_min);
+      iter_swap(c.begin()+i, c.begin()+i_min);
+      iter_swap(w.begin()+i, w.begin()+i_min);
+      iter_swap(v.begin()+i, v.begin()+i_min);
     }
   }
 }
@@ -79,14 +78,14 @@ int main() {
   cout << optimal_value << endl;
   return 0;
 }
-// FIXME: 
+
 // TESTS INPUT 1:
 // 3 50
 // 60 20
 // 100 50
 // 120 30
 // OUTPUT 1:
-// 130 , output should be 180 - Failed
+// 180 , output should be 180 - passed
 
 // TESTS INPUT 2:
 // 1 10
