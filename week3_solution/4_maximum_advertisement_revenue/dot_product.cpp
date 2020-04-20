@@ -3,22 +3,6 @@
 #include <vector>
 
 
-// // where z is the highest value in an index
-// long long get_highest_value(vector<int> z) {
-//   // set z to max
-//   long long max = z[0];
-//   long long index = 0;
-//   for (long long i = 0; i < z.size(); i++)
-//   {
-//     if (max < z[i])
-//     {
-//       max = z[i];
-//       index = i;
-//     }
-//   }
-//   return index;
-// }
-
 // FIXME: 
 long long max_dot_product(std::vector<int> a, std::vector<int> b) {
   // write your code here
