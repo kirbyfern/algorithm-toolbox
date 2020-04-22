@@ -62,8 +62,9 @@ Covered topics dealt with road network analysis and social network analysis, it 
 
 - [Week-3 Computing Runtime](/week3_solution)
   - [✓] (Max time used: 0.00/1.00, max memory used: 9117696/536870912.)
-  - 
+  - [✓] (Max time used: 0.00/1.00, max memory used: 9306112/671088640.)
   - [✓] (Max time used: 0.00/1.00, max memory used: 9187328/536870912.)
+  - [✓] (Max time used: 0.00/1.00, max memory used: 9613312/536870912.)
 
 
 - [Week-4](/week4_solution)
@@ -104,8 +105,8 @@ Covered topics dealt with road network analysis and social network analysis, it 
 - [✓] [Greatest-Common-Divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor)
 - [✓] [Least-Common-Multiple](https://en.wikipedia.org/wiki/Least_common_multiple)
 - [✓] [Greedy-Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
-- [] [Fractional-Knapsack]()
-- [] [KnapSack]()
+- [✓] [Fractional-Knapsack](https://en.wikipedia.org/wiki/Continuous_knapsack_problem)
+- [✓] [KnapSack](https://en.wikipedia.org/wiki/Knapsack_problem)
 - [] [Linear Search]()
 - [] [Binary Search]()
 - [] [Polynomials Multiplication]()
