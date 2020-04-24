@@ -68,14 +68,15 @@ Covered topics dealt with road network analysis and social network analysis, it 
 
 
 - [Week-4](/week4_solution)
-  * [binary search]()
-  * [majority element]()
-  * [improving quicksort]()
-  * [number of inversions]()
-  * [organizing a lottery]()
-  * [closest points]()
+  * [binary search](/week4_solution/1_binary_search)
+  * [majority element](/week4_solution/2_majority_element)
+  * [improving quicksort](/week4_solution/3_improving_quicksort)
+  * [number of inversions](/week4_solution/4_number_of_inversions)
+  * [organizing a lottery](/week4_solution/5_organizing_a_lottery)
+  * [closest points](/week4_solution/6_closest_points)
 
 - [Week-4 Computing Runtime](/week4_solution)
+  - [✓] (Max time used: 0.05/1.00, max memory used: 40472576/536870912.)
   
 
 - [Week-5](/week5_solution)
