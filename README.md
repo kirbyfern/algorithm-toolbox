@@ -68,6 +68,7 @@ Covered topics dealt with road network analysis and social network analysis, it 
 
 
 - [Week-4](/week4_solution)
+  * [linear search](/week4_solution/0_linear_search)
   * [binary search](/week4_solution/1_binary_search)
   * [majority element](/week4_solution/2_majority_element)
   * [improving quicksort](/week4_solution/3_improving_quicksort)
@@ -108,9 +109,10 @@ Covered topics dealt with road network analysis and social network analysis, it 
 - [✓] [Greedy-Algorithms](https://www.geeksforgeeks.org/greedy-algorithms/)
 - [✓] [Fractional-Knapsack](https://en.wikipedia.org/wiki/Continuous_knapsack_problem)
 - [✓] [KnapSack](https://en.wikipedia.org/wiki/Knapsack_problem)
-- [] [Linear Search]()
-- [] [Binary Search]()
-- [] [Polynomials Multiplication]()
+- [✓] [Linear Search](https://en.wikipedia.org/wiki/Linear_search)
+- [✓] [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+- [✓] [Polynomials Multiplication](https://en.wikipedia.org/wiki/Polynomial#Arithmetic)
+- [✓] [Karatsuba Algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
 - [] [Selection Sort]()
 - [] [Merge Sort]()
 - [] [All Sorting Algorithms]()
