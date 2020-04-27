@@ -78,6 +78,8 @@ Covered topics dealt with road network analysis and social network analysis, it 
 
 - [Week-4 Computing Runtime](/week4_solution)
   - [✓] (Max time used: 0.05/1.00, max memory used: 40472576/536870912.)
+  - [✓] (Max time used: 0.03/1.00, max memory used: 22159360/536870912.)
+  - [✓] (Max time used: 0.72/1.00, max memory used: 21065728/536870912.)
   
 
 - [Week-5](/week5_solution)
@@ -122,7 +124,7 @@ Covered topics dealt with road network analysis and social network analysis, it 
 - [] [Heap Sort]()
 - [] [Insertion Sort]()
 - [] [Minimum Spanning Tree]()
-- [] [Quick Sort]()
+- [✓] [Quick Sort]()
 - [] [Shell Sort]()
 - [] [Tower of Hanoi]()
 - [] [What is stable sort]()
