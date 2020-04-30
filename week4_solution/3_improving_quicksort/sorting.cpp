@@ -26,16 +26,16 @@ vector<int> partition3(vector<int> &a, int left, int right){
     int y = right;
     int z = left;
     for(int i = left; i <= y; i++)
-    { 
+    {
         if(a[i] < x) // if current element is < the pivot, move/swap it to the left of the pivot
         {
             swap(a[i], a[z]);
-            z++; // update 
+            z++; // update
         }
         else if(a[i] > x) // if current element is > the pivot, move/swap it to the right of the pivot
         {
             swap(a[i], a[y]);
-            i--; 
+            i--;
             y--; // update
         }
     }

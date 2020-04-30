@@ -1,5 +1,5 @@
 <div align="center">
- 
+
 <img width="600px" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/fb/434400d9ac11e5afbfa359f34ae5f0/logo3.png?auto=format%2Ccompress&dpr=1">
 
 </div>
@@ -16,7 +16,7 @@
 
 ## Algorithmic Programming Techniques Specialization
 
-Course by University of California San Diego & & National Research University Higher School of Economics.
+by University of California San Diego && National Research University Higher School of Economics.
 
 Covered topics dealt with road network analysis and social network analysis, it also offers two real-world projects.
 
@@ -49,7 +49,7 @@ Covered topics dealt with road network analysis and social network analysis, it 
   - [✓] (Max time used: 0.00/1.00, max memory used: 9142272/536870912.)
   - [✓] (Max time used: 0.00/1.00, max memory used: 9162752/536870912.)
   - [✓] (Max time used: 0.00/1.00, max memory used: 9416704/536870912.)
- 
+
 
 - [Week-3](/week3_solution)
   * [Money Change](/week3_solution/1_money_change)
@@ -80,7 +80,7 @@ Covered topics dealt with road network analysis and social network analysis, it 
   - [✓] (Max time used: 0.05/1.00, max memory used: 40472576/536870912.)
   - [✓] (Max time used: 0.03/1.00, max memory used: 22159360/536870912.)
   - [✓] (Max time used: 0.72/1.00, max memory used: 21065728/536870912.)
-  
+
 
 - [Week-5](/week5_solution)
   * [money change again]()
@@ -88,7 +88,7 @@ Covered topics dealt with road network analysis and social network analysis, it 
   * [edit distance]()
   * [longest common subsequence of two sequences]()
   * [longest common subsequence of three sequences]()
-  
+
 - [Week-5 Computing Runtime](/week5_solution)
 
 
@@ -103,7 +103,7 @@ Covered topics dealt with road network analysis and social network analysis, it 
 ---------------------------------------------------------------------------------------------------
 
 ## Course covered topics
- 
+
 - [✓] [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation)
 - [✓] [Fibonacci-Numbers](https://en.wikipedia.org/wiki/Fibonacci_number)
 - [✓] [Greatest-Common-Divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor)
@@ -126,6 +126,6 @@ Covered topics dealt with road network analysis and social network analysis, it 
 - [] [Minimum Spanning Tree]()
 - [✓] [Quick Sort]()
 - [] [Shell Sort]()
-- [] [Tower of Hanoi]()
+- [✓] [Tower of Hanoi]()
 - [] [What is stable sort]()
 
