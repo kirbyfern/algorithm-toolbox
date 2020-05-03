@@ -90,6 +90,9 @@ Covered topics dealt with road network analysis and social network analysis, it 
   * [longest common subsequence of three sequences]()
 
 - [Week-5 Computing Runtime](/week5_solution)
+  - [✓] (Max time used: 0.00/1.00, max memory used: 9125888/536870912.)
+  - [✓]
+  - [✓]
 
 
 - [Week-6](/week6_solution)
@@ -115,17 +118,18 @@ Covered topics dealt with road network analysis and social network analysis, it 
 - [✓] [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 - [✓] [Polynomials Multiplication](https://en.wikipedia.org/wiki/Polynomial#Arithmetic)
 - [✓] [Karatsuba Algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
-- [] [Selection Sort]()
-- [] [Merge Sort]()
-- [] [All Sorting Algorithms]()
-- [] [Binary Search Tree]()
+- [✓] [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming)
+- [✓] [Selection Sort](https://www.geeksforgeeks.org/selection-sort/)
+- [✓] [Merge Sort](https://www.geeksforgeeks.org/merge-sort/)
+- [✓] [All Sorting Algorithms]()
+- [✓] [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 - [] [Binary Tree]()
 - [] [Bubble Sort]()
 - [] [Heap Sort]()
 - [] [Insertion Sort]()
 - [] [Minimum Spanning Tree]()
-- [✓] [Quick Sort]()
+- [✓] [Quick Sort](https://www.geeksforgeeks.org/quick-sort/)
 - [] [Shell Sort]()
-- [✓] [Tower of Hanoi]()
+- [✓] [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 - [] [What is stable sort]()
 
