@@ -83,16 +83,17 @@ Covered topics dealt with road network analysis and social network analysis, it 
 
 
 - [Week-5](/week5_solution)
-  * [money change again]()
-  * [primitive calculator]()
-  * [edit distance]()
-  * [longest common subsequence of two sequences]()
+  * [money change again](/week5_solution/1_money_change_again)
+  * [primitive calculator](/week_solution/2_primitive_calculator)
+  * [edit distance](/week5_solution/3_edit_distance)
+  * [longest common subsequence of two sequences](/week5_solution/4_longest_common_subsequence_of_two_sequences)
   * [longest common subsequence of three sequences]()
 
 - [Week-5 Computing Runtime](/week5_solution)
   - [✓] (Max time used: 0.00/1.00, max memory used: 9125888/536870912.)
   - [✓]
-  - [✓]
+  - [✓] (Max time used: 0.00/1.00, max memory used: 9166848/536870912.)
+  - [✓] (Max time used: 0.00/1.00, max memory used: 9306112/536870912.)
 
 
 - [Week-6](/week6_solution)
@@ -123,7 +124,7 @@ Covered topics dealt with road network analysis and social network analysis, it 
 - [✓] [Merge Sort](https://www.geeksforgeeks.org/merge-sort/)
 - [✓] [All Sorting Algorithms]()
 - [✓] [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-- [] [Binary Tree]()
+- [✓] [Binary Tree](https://en.wikipedia.org/wiki/Binary_tree)
 - [] [Bubble Sort]()
 - [] [Heap Sort]()
 - [] [Insertion Sort]()
