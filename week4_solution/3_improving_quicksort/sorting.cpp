@@ -7,11 +7,11 @@ using std::swap;
 
 // Two way partition
 int partition2(vector<int> &a, int l, int r) {
-  int x = a[l];
-  int j = l;
-  for (int i = l + 1; i <= r; i++) {
+    int x = a[l];
+    int j = l;
+    for (int i = l + 1; i <= r; i++) {
     if (a[i] <= x) {
-      j++;
+         j++;
       swap(a[i], a[j]);
     }
   }

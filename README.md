@@ -97,12 +97,13 @@ Covered topics dealt with road network analysis and social network analysis, it 
 
 
 - [Week-6](/week6_solution)
-  * [maximum amount of gold]()
-  * [partitioning souvenirs]()
+  * [maximum amount of gold](/week6_solution/1_maximum_amount_of_gold)
+  * [partitioning souvenirs](/week6_solution/2_partitioning_souvenirs)
   * [maximum value of an arithmetic expression]()
 
 - [Week-6 Computing Runtime](/week6_solution)
-
+  - [✓] (Max time used: 0.00/2.00, max memory used: 12976128/536870912.)
+  - [✓] (Max time used: 0.00/2.00, max memory used: 11816960/536870912.)
 
 ---------------------------------------------------------------------------------------------------
 
@@ -125,12 +126,12 @@ Covered topics dealt with road network analysis and social network analysis, it 
 - [✓] [All Sorting Algorithms]()
 - [✓] [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 - [✓] [Binary Tree](https://en.wikipedia.org/wiki/Binary_tree)
-- [] [Bubble Sort]()
+- [✓] [Bubble Sort]()
 - [] [Heap Sort]()
 - [] [Insertion Sort]()
-- [] [Minimum Spanning Tree]()
+- [✓] [Minimum Spanning Tree]()
 - [✓] [Quick Sort](https://www.geeksforgeeks.org/quick-sort/)
 - [] [Shell Sort]()
 - [✓] [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
-- [] [What is stable sort]()
+- [✓] [What is stable sort](https://javarevisited.blogspot.com/2017/06/difference-between-stable-and-unstable-algorithm.html)
 
